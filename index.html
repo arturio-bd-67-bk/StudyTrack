@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyTrack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header_block">
+        <div class="title">
+            <img src="img/book-open.png" alt="Иконка StudyTrack">
+            <h1 class="title">StudyTrack</h1>
+        </div>
+        <nav class="nav_menu" id="navMenu">
+            <a href="#">
+                <img src="img/house.png" alt="Главная">
+                Главная
+            </a>
+            <a href="#opportunitiesSection">
+                <img src="img/layers.png" alt="Возможности">
+                Возможности
+            </a>
+            <a href="about.html">
+                <img src="img/info.png" alt="Об авторе">
+                Об авторе
+            </a>
+            <a href="#contacts">
+                <img src="img/mail.png" alt="Контакты">
+                Контакты
+            </a>
+            <button class="login_btn">Войти</button>
+        </nav>
+        <button id="hamburgerBtn">
+            <span class="hamburger_line"></span>
+            <span class="hamburger_line"></span>
+            <span class="hamburger_line"></span>
+        </button>
+    </header>
+    <main class="main_block">
+        <section class="hero_section">
+            <div class="hero_content">
+                <h2>Планируй обучение. Достигай целей.</h2>
+                <h4>Удобный трекер для эффективного обучения и управления задачами.</h4>
+                <button class="start_btn">Начать бесплатно</button>
+            </div>
+        </section>
+        <h2 class="opportunities_title title_h2">Наши возможности</h2>
+        <section class="opportunities_section" id="opportunitiesSection">
+            <figure>
+                <img src="img/calendar-days.png" alt="Планирование занятий">
+                <h3>Планирование занятий</h3>
+                <figcaption>
+                    Создавай расписание и распределяй учебные задачи.
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="img/chart-no-axes-column-increasing.png" alt="Отслеживание прогресса">
+                <h3>Отслеживание прогресса</h3>
+                <figcaption>
+                    Следи за своими результатами и достижениями.
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="img/trophy.png" alt="Постановка целей">
+                <h3>Постановка целей</h3>
+                <figcaption>
+                    Ставь цели и постепенно двигайся к их выполнению.
+                </figcaption>
+            </figure>
+        </section>
+        <section class="final_section">
+            <h2>Начни управлять своим обучением уже сегодня!</h2>
+            <form>
+                <input type="text" placeholder="Имя" name="name">
+                <input type="email" placeholder="Email" name="email">
+                <button type="button">Попробовать бесплатно</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer_block">
+        <div class="footer_wrapper">
+            <div class="contacts" id="contacts">
+                <h3>Контакты</h3>
+                <p>Телефон: <a href="tel:7999555444333">+7 (999) 555-444-333</a></p>
+                <p>Email: <a href="mailto:info.studytrack@mail.com">info.studytrack@mail.com</a></p>
+            </div>
+            <div class="main_links">
+                <h3>Главные ссылки</h3>
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Возможности</a></li>
+                    <li><a href="#">Об авторе</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
